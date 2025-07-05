@@ -17,6 +17,7 @@ const enteredValue = prompt('Maximum life for you and the monster.', '100');
 let chosenMaxLife = parseInt(enteredValue);
 let battleLog = [];
 
+
 if (isNaN(chosenMaxLife) || chosenMaxLife <= 0) {
   chosenMaxLife = 100;
 }
